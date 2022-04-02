@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import os
 import pandas as pd
 import seaborn as sns
+import matplotlib.pyplot as plt
 
 
 DOMAIN = 'https://www.avito.ru'
@@ -66,14 +67,14 @@ def parsing_page(soup, tmp_dict):
 
 
 if __name__ == '__main__':
-    request = input('Сбор данных с авито по поисковому запросу: ')
-    # request = 'gtx 1080 ti'
-    response = get_search_html(request)
-    soup = BeautifulSoup(response, 'lxml')
-    df_dict = parsing_page(soup=soup, tmp_dict=df_dict)
-    df = pd.DataFrame(df_dict)
-    df.to_excel(f"{request.replace(' ', '')}.xlsx", sheet_name=f'{request}')
-    print(f'Парсинг завершен: создан файл {request}.xlsx')
+    # request = input('Сбор данных с авито по поисковому запросу: ')
+    # # request = 'gtx 1080 ti'
+    # response = get_search_html(request)
+    # soup = BeautifulSoup(response, 'lxml')
+    # df_dict = parsing_page(soup=soup, tmp_dict=df_dict)
+    # df = pd.DataFrame(df_dict)
+    # df.to_excel(f"{request.replace(' ', '')}.xlsx", sheet_name=f'{request}')
+    # print(f'Парсинг завершен: создан файл {request}.xlsx')
 
     # Тест анализ
     df = pd.read_excel('gtx1080ti.xlsx')
