@@ -68,7 +68,7 @@ def parsing_page(soup, tmp_dict):
 
 if __name__ == '__main__':
     request = input('Сбор данных с авито по поисковому запросу: ')
-    # request = 'gtx 1080 ti'
+    # request = 'gtx 1080 ti' # видеокарта gtx 1080 ti
     response = get_search_html(request)
     soup = BeautifulSoup(response, 'lxml')
     df_dict = parsing_page(soup=soup, tmp_dict=df_dict)
