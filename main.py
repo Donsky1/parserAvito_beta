@@ -67,7 +67,7 @@ def parsing_page(soup, tmp_dict):
 
 if __name__ == '__main__':
     request = input('Сбор данных с авито по поисковому запросу: ')
-    request = 'gtx 1080 ti'
+    # request = 'gtx 1080 ti'
     response = get_search_html(request)
     soup = BeautifulSoup(response, 'lxml')
     df_dict = parsing_page(soup=soup, tmp_dict=df_dict)
@@ -77,7 +77,7 @@ if __name__ == '__main__':
 
     # Тест анализ
     df = pd.read_excel('gtx1080ti.xlsx')
-    print(df.describe())
+    print(df.describe()) # 75% объявлений лежит в диапазоне цен до 70000
     sns.histplot(df[(df['Цена'] > 10000) & (df['Цена'] < 100000)]['Цена'], kde=True)
     plt.show()
 
