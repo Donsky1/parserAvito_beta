@@ -8,4 +8,6 @@ Beta version program pulling info from avito website
 
 , а также создается dataframe с которым уже можно полноценно работать (выполнять различные аналитические сценарии).
 
+Пример: на данном графике видно в какой ценовом диапазоне продается видеокарта "gtx 1080 ti" на 04.2022 года
+
 ![image](https://user-images.githubusercontent.com/63307876/161378440-5018e715-a700-4af6-81f8-73c26a150ed1.png)
