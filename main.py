@@ -80,5 +80,5 @@ if __name__ == '__main__':
     df = pd.read_excel('gtx1080ti.xlsx')
     print(df.describe()) # 75% объявлений лежит в диапазоне цен до 70000
     sns.histplot(df[(df['Цена'] > 10000) & (df['Цена'] < 100000)]['Цена'], kde=True)
-    plt.show()
+    plt.show() # отобразить график
 
