@@ -1,5 +1,5 @@
 # parserAvito_beta
-Beta version program pulling info from avito website
+Beta version program pulling info from avito website + Telegram Bot parser
 
 Парсинг в данный момент выполняется только по перваой странице. <br>
 В результате создается файл-таблица xlsx со следующими полями: 
@@ -13,3 +13,7 @@ Beta version program pulling info from avito website
 ![image](https://user-images.githubusercontent.com/63307876/161378440-5018e715-a700-4af6-81f8-73c26a150ed1.png)
 
 p.s. опять же стоит брать во внимание тот факт, что парсинг выполнен только по первой странице!
+
+Добавлен функционал парсинга через Telegram бота (функционал пока остался такой же):
+
+![image](https://user-images.githubusercontent.com/63307876/161594319-5d414c0f-a2b1-4d27-bb91-9e79bfa9c602.png)
