@@ -15,15 +15,16 @@ Beta version program pulling info from avito website + Telegram Bot parser
 p.s. опять же стоит брать во внимание тот факт, что парсинг выполнен только по первой странице!
 
 Добавлен функционал парсинга через Telegram бота:<br>
-В боте имеется довольно простой функционал:
+<br>В боте имеется довольно простой функционал:<br>
 ![image](https://user-images.githubusercontent.com/63307876/161594512-c864711a-f338-4beb-a1b0-54ace4d5c399.png)<br>
 
-Команды:<br>
+<br>Команды:<br>
 <li>/start - Главное меню </li>
 <li>/parse - Команда на выполнение парсинга</li>
 <li>/help - Команда вызова помощи</li><br>
-![image](https://user-images.githubusercontent.com/63307876/161595098-5d5c177d-95fe-4704-914a-7f195c3363b1.png)<br>
+
+![image](https://user-images.githubusercontent.com/63307876/161595098-5d5c177d-95fe-4704-914a-7f195c3363b1.png)
 
 
-Результат выполнения в телеграмме выглядит следующим образом:<br>
+<br>Результат выполнения в телеграмме выглядит следующим образом:<br>
 ![image](https://user-images.githubusercontent.com/63307876/161594319-5d414c0f-a2b1-4d27-bb91-9e79bfa9c602.png)
